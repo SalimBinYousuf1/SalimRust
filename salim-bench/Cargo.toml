@@ -1,0 +1,12 @@
+[package]
+name = "salim-bench"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Reproducible benchmarks comparing Salim against Pandas and native Polars."
+
+[dependencies]
+salim = { path = "../salim" }
+colored = { workspace = true }
+comfy-table = { workspace = true }

@@ -1,0 +1,12 @@
+[package]
+name = "salim-io"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "File and database I/O for Salim Data Kit."
+
+[dependencies]
+polars = { workspace = true }
+salim-errors = { path = "../salim-errors" }
+salim-frame = { path = "../salim-frame" }

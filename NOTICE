@@ -1,0 +1,29 @@
+Salim Data Kit
+Copyright 2026 Salim Data Kit Authors.
+
+This product is dual-licensed under:
+- The Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
+- The MIT License (http://opensource.org/licenses/MIT)
+
+---
+Third-Party Licenses and Credits:
+
+1. Polars (https://github.com/pola-rs/polars)
+   Licensed under the MIT License.
+   Salim uses the official Polars crate from crates.io as its core columnar engine.
+   Polars is NOT forked, copied, or vendored.
+
+2. ndarray (https://github.com/rust-ndarray/ndarray)
+   Licensed under MIT / Apache-2.0.
+   Used in salim-array for n-dimensional numerical arrays.
+
+3. Linfa (https://github.com/rust-ml/linfa)
+   Licensed under MIT / Apache-2.0.
+   Used in salim-ml for scikit-learn compatible machine learning algorithms.
+
+4. Plotters (https://github.com/plotters-rs/plotters)
+   Licensed under the MIT License.
+   Used for chart and plot rendering backend.
+
+5. Arrow-rs (https://github.com/apache/arrow-rs)
+   Licensed under Apache 2.0.

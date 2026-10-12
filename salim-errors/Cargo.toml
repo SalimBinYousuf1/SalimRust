@@ -1,0 +1,12 @@
+[package]
+name = "salim-errors"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Friendly, human-first error reporting with fuzzy matching for Salim Data Kit."
+
+[dependencies]
+thiserror = { workspace = true }
+strsim = { workspace = true }
+colored = { workspace = true }

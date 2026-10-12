@@ -1,0 +1,13 @@
+[package]
+name = "salim-stats"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Statistics, probability distributions, and hypothesis tests for Salim Data Kit."
+
+[dependencies]
+statrs = { workspace = true }
+salim-errors = { path = "../salim-errors" }
+salim-array = { path = "../salim-array" }
+serde = { workspace = true }

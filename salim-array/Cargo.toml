@@ -1,0 +1,12 @@
+[package]
+name = "salim-array"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "NumPy-like N-dimensional arrays and linear algebra for Salim Data Kit."
+
+[dependencies]
+ndarray = { workspace = true }
+salim-errors = { path = "../salim-errors" }
+serde = { workspace = true }

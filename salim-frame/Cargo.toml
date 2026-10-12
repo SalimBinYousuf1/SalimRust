@@ -1,0 +1,15 @@
+[package]
+name = "salim-frame"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Pandas-style DataFrame and Series layer over Polars for Salim Data Kit."
+
+[dependencies]
+polars = { workspace = true }
+salim-errors = { path = "../salim-errors" }
+serde = { workspace = true }
+serde_json = { workspace = true }
+comfy-table = { workspace = true }
+colored = { workspace = true }

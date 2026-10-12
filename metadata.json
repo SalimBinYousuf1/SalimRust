@@ -1,0 +1,6 @@
+{
+  "name": "Salim Data Kit",
+  "description": "Python's ease. Rust's speed. High-performance data science toolkit and interactive studio powered by Polars, featuring DataFrames, arrays, stats, interactive plotting, ML, and Python-to-Rust migration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

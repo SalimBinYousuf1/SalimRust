@@ -1,0 +1,13 @@
+[package]
+name = "salim-ml"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Scikit-learn style machine learning helpers for Salim Data Kit."
+
+[dependencies]
+linfa = { workspace = true }
+salim-errors = { path = "../salim-errors" }
+salim-array = { path = "../salim-array" }
+serde = { workspace = true }

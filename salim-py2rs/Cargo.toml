@@ -1,0 +1,12 @@
+[package]
+name = "salim-py2rs"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Pandas to Salim translation engine, migration tools, and cheat sheets."
+
+[dependencies]
+salim-errors = { path = "../salim-errors" }
+serde = { workspace = true }
+serde_json = { workspace = true }

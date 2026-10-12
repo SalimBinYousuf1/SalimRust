@@ -1,0 +1,19 @@
+[package]
+name = "salim"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Python's ease. Rust's speed. The high-performance data science toolkit for Rust powered by Polars."
+
+[dependencies]
+salim-frame = { path = "../salim-frame" }
+salim-array = { path = "../salim-array" }
+salim-stats = { path = "../salim-stats" }
+salim-plot = { path = "../salim-plot" }
+salim-ml = { path = "../salim-ml" }
+salim-io = { path = "../salim-io" }
+salim-notebook = { path = "../salim-notebook" }
+salim-errors = { path = "../salim-errors" }
+salim-py2rs = { path = "../salim-py2rs" }
+polars = { workspace = true }

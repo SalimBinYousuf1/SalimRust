@@ -1,0 +1,11 @@
+[package]
+name = "salim-notebook"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Jupyter kernel support, REPL, and rich HTML displays for Salim Data Kit."
+
+[dependencies]
+salim-frame = { path = "../salim-frame" }
+salim-errors = { path = "../salim-errors" }

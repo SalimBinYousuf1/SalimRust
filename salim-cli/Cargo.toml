@@ -1,0 +1,13 @@
+[package]
+name = "salim-cli"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Command-line tool suite for Salim Data Kit."
+
+[dependencies]
+salim = { path = "../salim" }
+clap = { workspace = true }
+colored = { workspace = true }
+comfy-table = { workspace = true }
